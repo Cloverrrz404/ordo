@@ -1,0 +1,23 @@
+<script>
+    // Adiciona um evento de escuta para a tecla "Enter"
+    document.getElementById("password").addEventListener("keyup", function(event) {
+      // Verifica se a tecla pressionada é "Enter" (código 13)
+      if (event.keyCode === 13) {
+        event.preventDefault(); // Previne a ação padrão do Enter (submit do formulário)
+        checkLogin(); // Chama a função para verificar o login
+      }
+    });
+    
+    function checkLogin() {
+      var username = document.getElementById("username").value;
+      var password = document.getElementById("password").value;
+      
+      // Verifica se as credenciais correspondem a alguma possibilidade
+      if ((username === "rodriguinho" && password === "123") || (username === "jorginho" && password === "321")) {
+        // Redireciona para outra página em caso de login bem-sucedido
+        window.location.href = "outra_pagina.html";
+      } else {
+        document.getElementById("message").innerHTML = "Usuário ou senha incorretos. Tente novamente.";
+      }
+    }
+    </script>

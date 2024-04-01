@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>'</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main class="index">
+        <img src="./images/login/Group 6.png" alt="">
+    </main>
+
+    <main class="log">
+            <form id="loginForm">
+                
+                <section>
+                    <input type="text" id="username" name="username"><br>
+                </section>
+
+                    </section>
+                        <input type="password" id="password" name="password"><br><br>
+                    </section>
+
+                    <script>
+                        // Adiciona um evento de escuta para a tecla "Enter"
+                        document.getElementById("password").addEventListener("keyup", function(event) {
+                          // Verifica se a tecla pressionada é "Enter" (código 13)
+                          if (event.keyCode === 13) {
+                            event.preventDefault(); // Previne a ação padrão do Enter (submit do formulário)
+                            checkLogin(); // Chama a função para verificar o login
+                          }
+                        });
+                        
+                        function checkLogin() {
+                          var username = document.getElementById("username").value;
+                          var password = document.getElementById("password").value;
+                          
+                          if ((username === "CaioJr" && password === "Skywalker")){
+                          
+                          window.location.href = "loginskywalk.html";}
+
+                          if ((username === "Carlos Piloto IV" && password === "Samucas")){
+                          
+                          window.location.href = "logincarlos.html";}
+
+                          if ((username === "Dutch Schmutsz" && password === "Murilo")){
+                          
+                          window.location.href = "loginduych.html";}
+
+                          if ((username === "Nyx" && password === "Luana")){
+                          
+                          window.location.href = "loginnix.html";}
+
+                          if ((username === "Nero Graecus" && password === "Gian")){
+                          
+                          window.location.href = "loginnero.html";}
+
+                          if ((username === "Lucio Gouveio" && password === "Sizoto")){
+                          
+                          window.location.href = "loginLucio.html";}
+
+                          if ((username === "Marcos Silva" && password === "Darkmars")){
+                          
+                          window.location.href = "loginMarcos.html";
+                          } else {
+                            document.getElementById("message").innerHTML = "Usuário ou senha incorretos. Tente novamente.";
+                          }}
+                        </script>
+            </form\>
+        <p id="message"></p>
+    </main>
+</body>
+</html>

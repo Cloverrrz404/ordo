@@ -1,0 +1,234 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+body{
+    background-color: black;
+
+}
+
+main.log{
+    color: white;
+
+}
+
+main.index{
+display: flex;
+position: absolute;
+top: 400px;
+left: 700px;
+
+}
+
+#username{
+position: relative;
+color: white;
+background-color: black;
+top: 449px;
+left: 744px;
+height: 4.5cap;
+width: 46.7cap;
+}
+
+#password{
+    position: relative;
+    color: white;
+    background-color: black;
+    top: 483px;
+    left: 744px;
+    height: 4.5cap;
+    width: 46.7cap;
+}
+
+main.menu1{
+display: flex;
+align-items: center;
+}
+main.menu1 img{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 90cap;
+    margin-left: 30%;
+}
+main.menu1 section{
+display: flex;
+flex-direction: column;
+align-items: baseline;
+width: 11%;
+min-height: 100vh;
+justify-content: space-between;
+}
+main.menu1 section button{
+padding: 1rem;
+margin: 1rem 0;
+width: 20rem;
+background-color: black;
+border-width: 1ch;
+border-style: double;
+border-width: 5px;
+border-color: gray;
+color: white;
+}
+
+main.loginbase img{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    width: 130cap;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+main.loginbase section img{
+    display: flex;
+    position: absolute;
+    width: 9%;
+    top: 54px;
+    left: 46px;
+
+}
+main.loginbase textarea{
+    position: absolute;
+    color: white;
+    border-style: none;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 14px;
+}
+main.loginbase section main.atr textarea{
+    font-size: 18px;
+}
+main.loginbase section main.atr img{
+    position: absolute;
+    top: 523px;
+    left: 19px;
+    width:230px;
+    height: 357px;
+}
+
+#agi{
+    font-size: 5cap;
+    text-align: center;
+    top: 107px;
+    left: 570px;
+}
+
+#int{
+    font-size: 5cap;
+    text-align: center;
+    top: 223px;
+    left: 724px;
+}
+
+#vig{
+    font-size: 5cap;
+    text-align: center;
+    top: 404px;
+    left: 663px;
+}
+
+#pre{
+    font-size: 5cap;
+    text-align: center;
+    top: 404px;
+    left: 479px;
+}
+
+#for{
+    font-size: 5cap;
+    text-align: center;
+    top: 223px;
+    left: 414px;
+}
+
+#name{
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    overflow: hidden;
+    border-right: 1px solid;
+    top: 328px;
+    left: 248px;
+}
+#description{
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    overflow: hidden;
+    border-right: 1px solid;
+    top: 379px;
+    left: 248px;
+}
+#pericias{
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    overflow: hidden;
+    border-right: 1px solid;
+    top: 516px;
+    left: 503px;
+    width: 368px;
+    height: 438px;
+}
+#ap{
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    overflow: hidden;
+    border-right: 1px solid;
+    top:109px;
+    left: 1000px;
+    width: 308px;
+    height:360px;
+}
+#am{
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    overflow: hidden;
+    border-right: 1px solid;
+    top:109px;
+    left: 1336px;
+    width: 308px;
+    height:360px;
+}
+#inv{
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    overflow: hidden;
+    border-right: 1px solid;
+    top:490px;
+    left: 1000px;
+    width: 645px;
+    height:460px;
+}
+.typing-demo {
+    animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  main.loginbase section main.ritus img{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    top: -30px;
+    left: 250px;
+    animation: blik 12500s steps(1, end) infinite;
+}
+  
+main.loginbase section main.ritus section img{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    top: -30px;
+    left: 250px;
+    animation: blik 6500s steps(1, end) infinite;
+}
+
+main.loginbase section main.ritus div img{
+    position: absolute;
+    width: 1000px;
+    height: 1000px;
+    top: -30px;
+    left: 250px;
+    animation: blik 19800s steps(1, end) infinite;
+}
+
+
+  @keyframes typing {from {width: 0}}
+
+  .blik {
+    animation: blik 1s steps(1, end) infinite;
+  }
+  
+  @keyframes blik {0% {opacity: 0;}50% {opacity: 1;}51% {opacity: 0;}100% {opacity: 1;}}
+  
