@@ -1,5 +1,6 @@
 This code was made for a RPG called Paranormal Order, it conteins some of the original rules of the actual sistem and some of my own Homebrew.
-Its completile custumizable, its a lithe bit difcult if you don't have any html info, but I'll try to simplify it for better use.
+Its completile custumizable, its a litthe bit difcult if you don't have any html info, but I'll try to simplify it for better use.
+Also for better experience use full screem (press "f11").
 On this version it has:
 
   * Login system;
